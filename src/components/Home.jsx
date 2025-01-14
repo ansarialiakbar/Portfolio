@@ -15,7 +15,7 @@ const Home = () => {
       >
         <div className="rounded-full overflow-hidden w-40 h-40 sm:w-48 sm:h-48 lg:w-55 lg:h-55 shadow-lg">
           <img
-            src="src\assets\new gate photo image2.jpg" // Replace with your actual image path
+            src="/assets/new gate photo image2.jpg" // Replace with your actual image path
             alt="Profile"
             className="object-cover w-full h-full"
           />

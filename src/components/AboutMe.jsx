@@ -19,7 +19,7 @@ const AboutMe = () => {
           data-aos="zoom-in"
         >
           <img
-            src="src/assets/new gate photo image2.jpg"
+            src="/assets/new gate photo image2.jpg"
             alt="About Me"
             className="rounded-lg shadow-lg w-72 h-75 object-cover"
           />
