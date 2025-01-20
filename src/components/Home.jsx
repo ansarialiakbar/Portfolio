@@ -62,7 +62,7 @@ const Home = () => {
 
         {/* Download Resume Button */}
         <a
-          href="/your-resume.pdf"
+          href="/Ali Akbar Ansari-Resume.pdf"
           download="Your_Resume.pdf"
           className="flex items-center bg-black text-white py-2 px-4 rounded-full cursor-pointer dark:border"
         >
