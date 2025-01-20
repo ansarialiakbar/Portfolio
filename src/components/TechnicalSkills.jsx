@@ -1,6 +1,6 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNode, FaGitAlt } from "react-icons/fa"; // Importing icons from React Icons
-import { SiTailwindcss, SiMongodb, SiExpress, SiPostman } from "react-icons/si"; // Importing additional icons
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNode,  FaGithub, FaGitAlt } from "react-icons/fa"; // Importing icons from React Icons
+import { SiTailwindcss, SiMongodb, SiExpress, SiPostman, SiCplusplus } from "react-icons/si"; // Importing additional icons
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-600 text-4xl" /> },
@@ -10,7 +10,9 @@ const skills = [
   { name: "React.js", icon: <FaReact className="text-blue-500 text-4xl" /> },
   { name: "Node.js", icon: <FaNode className="text-green-500 text-4xl" /> },
   { name: "Express.js", icon: <SiExpress className="text-green-500 text-4xl" /> },
-  { name: "MongoDB", icon: <SiMongodb className="text-green-500 text-4xl" /> },
+  { name: "MongoDB", icon: <SiMongodb className="text-green-500 text-4xl" /> },  
+  { name: "C++", icon: <SiCplusplus className="text-blue-600 text-4xl" /> },
+  { name: "GitHub", icon: <FaGithub className="text-black text-4xl" /> },
   { name: "Git", icon: <FaGitAlt className="text-red-500 text-4xl" /> },
   { name: "Postman", icon: <SiPostman className="text-red-500 text-4xl" /> },
 
